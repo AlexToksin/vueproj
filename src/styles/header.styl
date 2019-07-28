@@ -1,0 +1,53 @@
+.header{
+  display flex
+  flex-direction row
+  align-items center
+  width 100%
+  &__text{
+    color #ffffff
+    text-transform uppercase
+    &_big{
+      font-family: "Lucida Sans";
+      text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42)
+      font-size 41px
+      font-style italic
+      letter-spacing 0.41px
+    }
+    &_small{
+      align-self flex-end
+      opacity: 0.77;
+      font-family: "Lao UI";
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.13px;
+    }
+  }
+  &__logo{
+    position relative
+    width unset
+  }
+  &__nav{
+    display flex
+    flex-direction row
+    justify-content space-around
+    width: 453px;
+    height: 41px;
+    background-color: #f5c506;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  &__button{
+    display flex
+    flex-direction row
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.17px;
+  }
+}
+.logo__shadow{
+    position absolute
+  }
+
+

@@ -1,5 +1,6 @@
 <template>
-
+ <div class="wraper">
+ </div>
 </template>
 
 <script>
